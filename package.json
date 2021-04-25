@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "vax",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "scripts": {
+    "build": "webpack",
+    "preview": "wrangler preview",
+    "dev": "npm run build && npm run preview",
+    "publish": "npm run build && wrangler publish"
+  },
+  "author": "personal",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
+  }
+}

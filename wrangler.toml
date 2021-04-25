@@ -1,0 +1,5 @@
+type = "webpack"
+name = "vax"
+account_id = ""
+workers_dev = true
+webpack_config = "webpack.config.js"
